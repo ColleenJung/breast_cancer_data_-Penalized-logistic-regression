@@ -1,5 +1,5 @@
-# breast_cancer_data_-Penalized-logistic-regression
-# logistic regression with Lasso penalty # elastic-net penalty #Classification error #Area under the ROC curve
+# breast_cancer_data and Penalized logistic regression
+#logistic regression with Lasso penalty # elastic-net penalty #Classification error #Area under the ROC curve
 
 ## TCGA BRCA Data
 - This data is obtained from Kaggle(https://www.kaggle.com/datasets/samdemharter/brca-multiomics-tcga/data). The data was processed from the TCGA (The Cancer Genome Atlas) breast cancer gene dataset. 
