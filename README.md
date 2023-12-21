@@ -14,7 +14,6 @@
 ### Evaluating using two different criteria:
 1. Classification error
 2. Area under the ROC curve
-   
 In all questions will use the cv.glmnet() function to obtain the best tuning parameter λ (and α when necessary).
 
 ## Question 1
