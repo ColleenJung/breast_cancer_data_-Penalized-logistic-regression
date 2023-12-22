@@ -24,6 +24,7 @@ In all questions will use the cv.glmnet() function to obtain the best tuning par
 - The larger lambda is, the more the coefficients are shrunk toward zero (and each other).
 - When the value is 0, regularization is disabled, and ordinary generalized liner models are fit. 
 - This option also works closely with the alpha parameter, which controls the distribution between the ℓ1 (LASSO) and ℓ2 (ridge regression) penalties.
+
 The following table describes the type of penalized model that results based on the values specified for the lambda and alpha options.
 <img width="605" alt="Screenshot 2023-12-21 at 9 39 31 PM" src="https://github.com/ColleenJung/breast_cancer_data_-Penalized-logistic-regression/assets/119357849/5d9872b1-8927-4eca-8c81-84f4166fac21">
  
