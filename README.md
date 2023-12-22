@@ -16,6 +16,17 @@
 2. Area under the ROC curve
 In all questions will use the cv.glmnet() function to obtain the best tuning parameter λ (and α when necessary).
 
+## What is λ(lambda)?
+- To get the best possible model, GLM and GAM need to find the optimal values of the regularization parameters 𝛼 and 𝜆
+- When performing regularization, penalties are introduced to the model building process to avoid overfitting, to reduce variance of the prediction error, and to handle correlated predictors.
+- The two most common penalized models are ridge regression and LASSO (least absolute shrinkage and selection operator). The elastic net combines both penalties. These types of penalties are described in greater detail in the Regularization section in GLM for more information.
+- The larger lambda is, the more the coefficients are shrunk toward zero (and each other).
+- When the value is 0, regularization is disabled, and ordinary generalized liner models are fit. 
+- This option also works closely with the alpha parameter, which controls the distribution between the ℓ1 (LASSO) and ℓ2 (ridge regression) penalties.
+The following table describes the type of penalized model that results based on the values specified for the lambda and alpha options.
+<img width="605" alt="Screenshot 2023-12-21 at 9 39 31 PM" src="https://github.com/ColleenJung/breast_cancer_data_-Penalized-logistic-regression/assets/119357849/5d9872b1-8927-4eca-8c81-84f4166fac21">
+ 
+
 ## Question 1
 Our first task is to perform the logistic regression with Lasso penalty and obtain a sparse model. We will use the classification error as the criteria in the cross-validation to select the best model. Our collaborator that provides this data is interested in knowing which gene(s) are important for predicting 'vital.status'. 
 
