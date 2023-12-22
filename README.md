@@ -26,7 +26,6 @@ In all questions will use the cv.glmnet() function to obtain the best tuning par
 The following table describes the type of penalized model that results based on the values specified for the lambda and alpha options.
 <img width="605" alt="Screenshot 2023-12-21 at 9 39 31 PM" src="https://github.com/ColleenJung/breast_cancer_data_-Penalized-logistic-regression/assets/119357849/5d9872b1-8927-4eca-8c81-84f4166fac21">
  
-
 ## Question 1
 Our first task is to perform the logistic regression with Lasso penalty and obtain a sparse model. We will use the classification error as the criteria in the cross-validation to select the best model. Our collaborator that provides this data is interested in knowing which gene(s) are important for predicting 'vital.status'. 
 
